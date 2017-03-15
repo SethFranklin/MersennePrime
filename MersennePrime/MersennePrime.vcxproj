@@ -142,6 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Generation.cpp" />
+    <ClCompile Include="InputOutput.cpp" />
+    <ClCompile Include="MainThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Generation.h" />
+    <ClInclude Include="InputOutput.h" />
+    <ClInclude Include="MainThread.h" />
+    <ClInclude Include="Number.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
